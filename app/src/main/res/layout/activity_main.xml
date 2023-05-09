@@ -9,86 +9,109 @@
     <TextView
         android:id="@+id/barBlueTop"
         android:layout_width="352dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="40dp"
-        android:background="@color/bar_blue"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/barBlueTop2"
-        android:layout_width="352dp"
-        android:layout_height="23dp"
-        android:layout_marginBottom="44dp"
+        android:layout_height="wrap_content"
         android:background="@color/bar_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <TextView
+        android:id="@+id/barBlueTop2"
+        android:layout_width="352dp"
+        android:layout_height="19dp"
+        android:background="@color/bar_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="224dp"
-        android:text="UMC Fit"
+        android:text="@string/umc_fit"
         android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.339" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="284dp"
-        android:text="Calculadora IMC"
+        android:text="@string/calculadora_imc"
         android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Altura"
+        android:text="@string/altura"
         android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/txtAltura"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="384dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Peso"
+        android:text="@string/peso"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="436dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txtPeso"
+        app:layout_constraintHorizontal_bias="0.37"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtPeso"
+        android:layout_width="214dp"
+        android:layout_height="51dp"
+        android:hint="@string/peso_kg"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="332dp"
-        android:text="IMC = peso + (altura x altura)"
+        android:text="@string/formula"
         android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/txtAltura"
-        android:layout_width="211dp"
-        android:layout_height="38dp"
-        android:hint="Altura (cm)"
+        android:layout_width="216dp"
+        android:layout_height="54dp"
+        android:hint="@string/altura_cm"
         app:layout_constraintBottom_toBottomOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -96,16 +119,46 @@
         app:layout_constraintTop_toTopOf="@+id/textView6"
         app:layout_constraintVertical_bias="0.0" />
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/txtPeso"
-        android:layout_width="211dp"
-        android:layout_height="41dp"
-        android:hint="Peso (kg)"
-        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="149dp"
+        android:layout_height="143dp"
+        android:contentDescription="@string/logo_description"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.55"
-        app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toTopOf="@+id/textView7"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/btnCalcular"
+        android:layout_width="159dp"
+        android:layout_height="38dp"
+        android:autoText="false"
+        android:background="@color/bar_blue"
+        android:text="@string/calcular"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.854" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/resultado"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.743" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
