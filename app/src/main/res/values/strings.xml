@@ -3,11 +3,12 @@
     <string name="calcular">Calcular</string>
     <string name="peso">Peso</string>
     <string name="altura">Altura</string>
-    <string name="formula">IMC = peso + (altura x altura)</string>
+    <string name="formula">IMC = peso / (altura x altura)</string>
     <string name="calculadora_imc">Calculadora IMC</string>
     <string name="umc_fit">UMC Fit</string>
     <string name="resultado">Resultado</string>
     <string name="altura_cm">Altura (cm)</string>
     <string name="peso_kg">Peso (Kg)</string>
     <string name="logo_description">Pessoa correndo em azul em cima de uma folha</string>
+    <string name="tabela">Tabela</string>
 </resources>

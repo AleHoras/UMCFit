@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImcActivity">
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="352dp"
+        android:layout_height="23dp"
+        android:background="@color/umc_fit"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/umc_fit"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.373" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculadora_imc"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="352dp"
+        android:layout_height="23dp"
+        android:background="@color/umc_fit"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
+
+    <TableLayout
+        android:layout_width="278dp"
+        android:layout_height="185dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.679">
+
+        <TableRow
+            android:layout_margin="1.5px"
+            android:background="@color/umc_fit">
+
+            <TextView
+                android:layout_width="119dp"
+                android:layout_column="1"
+                android:layout_margin="1.5px"
+                android:padding="3dip"
+                android:text="IMC (kg/m²)"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="156dp"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Classificação"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="119dp"
+                android:layout_column="1"
+                android:background="@color/magreza"
+                android:padding="3dip"
+                android:text="Menor que 18,5"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="155dp"
+                android:background="@color/magreza"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Magreza"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="119dp"
+                android:layout_column="1"
+                android:background="@color/normal"
+                android:padding="3dip"
+                android:text="18,5 a 24,9"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="139dp"
+                android:background="@color/normal"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Peso normal"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="119dp"
+                android:layout_column="1"
+                android:background="@color/excesso"
+                android:padding="3dip"
+                android:text="25 a 29,9"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="139dp"
+                android:background="@color/excesso"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Excesso"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="119dp"
+                android:layout_column="1"
+                android:background="@color/obesidade_1"
+                android:padding="3dip"
+                android:text="30 a 34,9"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="139dp"
+                android:background="@color/obesidade_1"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Obesidade grau I"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="119dp"
+                android:layout_column="1"
+                android:background="@color/obesidade_2"
+                android:padding="3dip"
+                android:text="35 a 40"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="139dp"
+                android:background="@color/obesidade_2"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Obesidade grau II"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="119dp"
+                android:layout_column="1"
+                android:background="@color/obesidade_3"
+                android:padding="3dip"
+                android:text="Maior que 40"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="149dp"
+                android:background="@color/obesidade_3"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Obesidade grau III"
+                android:textColor="@color/white" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="143dp"
+        android:layout_height="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176"
+        app:srcCompat="@drawable/logo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

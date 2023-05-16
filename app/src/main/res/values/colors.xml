@@ -3,4 +3,15 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="bar_blue">#111bff</color>
+
+    <color name="magreza">#2c9fa3</color>
+    <color name="normal">#a6ad3c</color>
+    <color name="excesso">#f0971c</color>
+    <color name="obesidade_1">#cc3e18</color>
+    <color name="obesidade_2">#9e0b41</color>
+    <color name="obesidade_3">#4a073c</color>
+
+    <color name="umc_fit">#101bff</color>
+
+
 </resources>
