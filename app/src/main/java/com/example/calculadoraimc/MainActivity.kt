@@ -1,8 +1,11 @@
 package com.example.calculadoraimc
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -11,36 +14,22 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.calculadoraimc.ui.theme.CalculadoraIMCTheme
+import org.w3c.dom.Text
 
-class MainActivity : ComponentActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
-            CalculadoraIMCTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    Greeting("Android")
-                }
-            }
+        setContentView(R.layout.activity_main)
+
+        findViewById<Button>(R.id.button_salvar).setOnClickListener{
+            val nome = findViewById<EditText>(R.id.edit_text_nome)
+            val peso = findViewById<EditText>(R.id.edit_text_peso)
+            val dataNascimento = findViewById<EditText>(R.id.edit_text_data_nascimento)
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    CalculadoraIMCTheme {
-        Greeting("Android")
+        findViewById<Button>(R.id.button_cancelar).setOnClickListener{
+            findViewById<EditText>(R.id.edit_text_nome).text = null
+            findViewById<EditText>(R.id.edit_text_peso).text = null
+            findViewById<EditText>(R.id.edit_text_data_nascimento).text = null
+        }
     }
 }
