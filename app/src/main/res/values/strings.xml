@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CalculadoraIMC</string>
+    
+    <string name="dados_pessoais">Dados Pessoais</string>
+    <string name="treinos">Treinos</string>
+    <string name="lembretes">Lembretes</string>
+    <string name="calc_imc">Calculadora IMC</string>
+    <string name="dicas_receitas">Dicas de Receitas</string>
+    <string name="minha_evolucao">Minha evolução</string>
+    <string name="academias_proximas">Academias próximas</string>
+
+
+</resources>

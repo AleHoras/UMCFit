@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calculadora"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/btnMinhaEvolucao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minha_evolucao"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <TextView
+        android:id="@+id/btnrefeicao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dicas_receitas"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <TextView
+        android:id="@+id/btnCalculadora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calc_imc"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <TextView
+        android:id="@+id/btnLembrete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="380dp"
+        android:text="@string/lembretes"
+        app:layout_constraintBottom_toTopOf="@+id/barraAzul2"
+        tools:layout_editor_absoluteX="171dp" />
+
+    <TextView
+        android:id="@+id/btnTreinos"
+        android:layout_width="89dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/treinos"
+        app:layout_constraintBottom_toTopOf="@+id/btnLembrete"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/btnDadosPessoais" />
+
+    <TextView
+        android:id="@+id/barraAzul"
+        android:layout_width="353dp"
+        android:layout_height="20dp"
+        android:background="@color/azul_barra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/barraAzul2"
+        android:layout_width="353dp"
+        android:layout_height="20dp"
+        android:background="@color/azul_barra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/pessoa"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnDadosPessoais"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/btnDadosPessoais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="155dp"
+        android:text="@string/dados_pessoais"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/barraAzul" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/treinamento_funcional"
+        app:layout_constraintBottom_toTopOf="@+id/Lembrete"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/Lembrete"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/calendario"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/calculadora"
+        app:layout_constraintBottom_toTopOf="@+id/refeicao"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <ImageView
+        android:id="@+id/refeicao"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/refeicao"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/trofeu"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/localizacao"
+        app:layout_constraintBottom_toTopOf="@+id/barraAzul2"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <TextView
+        android:id="@+id/btnAcademiasProx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/academias_proximas"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="629dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
