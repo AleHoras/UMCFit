@@ -70,105 +70,87 @@
         android:background="@color/azul_barra"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.953" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="109dp" />
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="160dp" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="51dp"
         android:layout_height="51dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginBottom="30dp"
         android:src="@drawable/pessoa"
-        app:layout_constraintBottom_toTopOf="@+id/imageView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnDadosPessoais"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="59dp" />
 
     <TextView
         android:id="@+id/btnDadosPessoais"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="75dp"
-        android:layout_marginEnd="155dp"
         android:text="@string/dados_pessoais"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/barraAzul" />
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="70dp" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="51dp"
         android:layout_height="51dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginBottom="30dp"
         android:src="@drawable/treinamento_funcional"
-        app:layout_constraintBottom_toTopOf="@+id/Lembrete"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="140dp" />
 
     <ImageView
         android:id="@+id/Lembrete"
         android:layout_width="51dp"
         android:layout_height="51dp"
-        android:layout_marginBottom="30dp"
         android:src="@drawable/calendario"
-        app:layout_constraintBottom_toTopOf="@+id/imageView6"
-        tools:layout_editor_absoluteX="44dp" />
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="233dp" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="51dp"
         android:layout_height="51dp"
-        android:layout_marginBottom="30dp"
         android:src="@drawable/calculadora"
-        app:layout_constraintBottom_toTopOf="@+id/refeicao"
-        tools:layout_editor_absoluteX="44dp" />
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="312dp" />
 
     <ImageView
         android:id="@+id/refeicao"
         android:layout_width="51dp"
         android:layout_height="51dp"
-        android:layout_marginBottom="30dp"
         android:src="@drawable/refeicao"
-        app:layout_constraintBottom_toTopOf="@+id/imageView8"
-        tools:layout_editor_absoluteX="44dp" />
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="472dp" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="51dp"
         android:layout_height="51dp"
-        android:layout_marginBottom="30dp"
         android:src="@drawable/trofeu"
-        app:layout_constraintBottom_toTopOf="@+id/imageView9"
-        tools:layout_editor_absoluteX="44dp" />
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="391dp" />
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="51dp"
         android:layout_height="51dp"
-        android:layout_marginBottom="30dp"
         android:src="@drawable/localizacao"
-        app:layout_constraintBottom_toTopOf="@+id/barraAzul2"
-        tools:layout_editor_absoluteX="44dp" />
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="617dp" />
 
     <TextView
         android:id="@+id/btnAcademiasProx"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="143dp"
+        android:layout_height="18dp"
         android:text="@string/academias_proximas"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="629dp" />
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="633dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
