@@ -21,36 +21,35 @@ class MainActivity : AppCompatActivity() {
 //            finish();
         }
 
-        findViewById<TextView>(R.id.btnLembrete).setOnClickListener {
+        findViewById<TextView>(R.id.btnLembretes).setOnClickListener {
 //            val goToCalculadora = Intent(this, );
 //            startActivity(goToCalculadora);
 //            finish();
         }
 
-        findViewById<TextView>(R.id.btnCalculadora).setOnClickListener {
+        findViewById<TextView>(R.id.btnCalcImc).setOnClickListener {
 //            val goToCalculadora = Intent(this, ImcActivity::class.java);
 //            startActivity(goToCalculadora);
 //            finish();
         }
 
-        findViewById<TextView>(R.id.btnrefeicao).setOnClickListener {
+        findViewById<TextView>(R.id.btnDicasReceitas).setOnClickListener {
 //            val goToCalculadora = Intent(this, );
 //            startActivity(goToCalculadora);
 //            finish();
         }
 
-        findViewById<TextView>(R.id.btnMinhaEvolucao).setOnClickListener {
+        findViewById<TextView>(R.id.btnMInhaEvolu).setOnClickListener {
 //            val goToCalculadora = Intent(this, );
 //            startActivity(goToCalculadora);
 //            finish();
         }
 
-        findViewById<TextView>(R.id.btnAcademiasProx).setOnClickListener {
+        findViewById<TextView>(R.id.btnAcademiasProxima).setOnClickListener {
 //            val goToCalculadora = Intent(this, );
 //            startActivity(goToCalculadora);
 //            finish();
         }
-
 
     }
 }
