@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button_blue"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="ESPORTE"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_gravity="start"
+        android:layout_margin="8dp"
+        android:background="@null"
+        android:contentDescription="Voltar"
+        android:src="@drawable/icone_seta_voltar_foreground" />
+
+    <ImageView
+        android:layout_width="116dp"
+        android:layout_height="117dp"
+        android:layout_gravity="center"
+        android:contentDescription="Descrição da imagem"
+        android:src="@drawable/logo_app" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Dicas sobre esportes:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="1. Hidrate-se: Beba água durante a prática esportiva para manter-se hidratado."
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="2. Faça aquecimento: Alongue-se e faça exercícios leves antes de começar."
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="3. Use equipamentos de proteção: Use capacetes, protetores e outros equipamentos de segurança adequados."
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="4. Varie os exercícios: Experimente diferentes esportes e atividades físicas."
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="5. Ouça seu corpo: Pare se sentir dor intensa ou desconforto."
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="6. Defina metas realistas: Estabeleça metas alcançáveis e progressivas."
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="7. Descanse e recupere-se: Dê tempo para o seu corpo se recuperar."
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="8. Divirta-se: Escolha um esporte que você goste e se divirta praticando."
+        android:padding="8dp" />
+
+</LinearLayout>

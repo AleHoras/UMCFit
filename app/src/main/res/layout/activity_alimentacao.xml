@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button_blue"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="ALIMENTAÇÃO"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="42dp"
+        android:layout_height="35dp"
+        android:layout_gravity="start"
+        android:layout_margin="8dp"
+        android:background="@null"
+        android:contentDescription="Voltar"
+        android:src="@drawable/icone_seta_voltar_foreground" />
+
+    <ImageView
+        android:layout_width="117dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:contentDescription="Descrição da imagem"
+        android:src="@drawable/logo_app" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Curiosidades sobre Bem-Estar:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="1. Beba bastante água para se manter hidratado ao longo do dia."
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="2.Inclua vegetais e frutas em suas refeições para obter nutrientes essenciais. "
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="3. Consuma alimentos ricos em fibras, como grãos integrais, para manter a saúde do sistema digestivo."
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="4. Limite o consumo de alimentos processados e ultraprocessados, que tendem a ser menos saudáveis."
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="5. Modere o consumo de açúcares e doces, optando por alternativas mais saudáveis, como frutas."
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="6. Prefira fontes de proteínas magras, como peixes, frango e leguminosas."
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="7. Equilibre sua dieta com porções adequadas de carboidratos, proteínas e gorduras saudáveis."
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="8. Evite pular refeições e faça lanches saudáveis."
+        android:padding="8dp" />
+
+    </LinearLayout>
