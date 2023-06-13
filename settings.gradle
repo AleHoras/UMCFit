@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "CalculadoraIMC"
+rootProject.name = "Relatorio"
 include ':app'

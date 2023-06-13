@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="209dp"
+        app:srcCompat="@drawable/logo_umc_fit_sem_letreiro" />
+
+    <TextView
+        android:id="@+id/titulo_menu"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="@color/purple_700"
+        android:gravity="center_vertical"
+        android:text="MENU RELATÓRIO"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bDATA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CD0012B3"
+        android:text="RELATÓTIO POR DATA"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/bIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2937B7"
+        android:text="Historico IMC"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/bPESO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2937B6"
+        android:text="Historico Peso"
+        android:textColor="@color/white" />
+</LinearLayout>

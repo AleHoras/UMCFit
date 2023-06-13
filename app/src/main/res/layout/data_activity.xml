@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        app:srcCompat="@drawable/logo_umc_fit_sem_letreiro" />
+
+    <TextView
+        android:id="@+id/titulo_menu"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="@color/purple_700"
+        android:gravity="center_vertical"
+        android:text="RELATÓRIO POR DATA"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnSelectDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CD0012B3"
+        android:text="Selecionar Data"
+        android:textColor="@color/white" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnBackToMainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar para o Menu"
+        android:textColor="@color/white"
+        android:background="#2937B6"/>
+
+</LinearLayout>
