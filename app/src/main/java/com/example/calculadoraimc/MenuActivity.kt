@@ -1,8 +1,10 @@
 package com.example.calculadoraimc
 
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import android.content.Intent
 
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,9 +18,9 @@ class MenuActivity : AppCompatActivity() {
         }
 
         findViewById<TextView>(R.id.btnTreinos).setOnClickListener {
-//            val goToCalculadora = Intent(this, );
-//            startActivity(goToCalculadora);
-//            finish();
+            val goToTreinos = Intent(this, DefinirTreino::class.java)
+            startActivity(goToTreinos)
+            finish()
         }
 
         findViewById<TextView>(R.id.btnLembretes).setOnClickListener {
@@ -50,6 +52,8 @@ class MenuActivity : AppCompatActivity() {
 //            startActivity(goToCalculadora);
 //            finish();
         }
+
+
 
     }
 }

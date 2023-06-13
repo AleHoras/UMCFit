@@ -10,4 +10,13 @@
     <string name="academias_proximas">Academias próximas</string>
 
 
+    <string-array name="tipos_treino">
+        <item>Musculação</item>
+        <item>Aeróbico</item>
+        <item>Natação</item>
+        <!-- Adicione mais tipos de treino, se necessário -->
+    </string-array>
+
+
+
 </resources>

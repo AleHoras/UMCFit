@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+
+
+
+    <TextView
+        android:id="@+id/textViewTipoTreino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de Treino"
+        android:textColor="#000000" />
+
+    <Spinner
+        android:id="@+id/spinnerTipoTreino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/tipos_treino"
+        android:background="#DDDDDD"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/textViewData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data do Treino"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editTextData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:inputType="none"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="#DDDDDD"
+        android:textColor="#000000"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/textViewHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora do Treino"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editTextHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:inputType="none"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="#DDDDDD"
+        android:textColor="#000000"
+        android:padding="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/buttonAgendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agendar" />
+
+    </LinearLayout>
+
+</LinearLayout>
