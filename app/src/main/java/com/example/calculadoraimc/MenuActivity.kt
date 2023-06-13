@@ -1,5 +1,6 @@
 package com.example.calculadoraimc
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
@@ -10,45 +11,45 @@ class MenuActivity : AppCompatActivity() {
         setContentView(R.layout.activity_menu)
 
         findViewById<TextView>(R.id.btnDadosPessoais).setOnClickListener {
-//            val goToCalculadora = Intent(this, );
-//            startActivity(goToCalculadora);
-//            finish();
+            val goToTelaTeste = Intent(this, TesteActivity::class.java);
+            startActivity(goToTelaTeste);
+            finish();
         }
 
         findViewById<TextView>(R.id.btnTreinos).setOnClickListener {
-//            val goToCalculadora = Intent(this, );
-//            startActivity(goToCalculadora);
-//            finish();
+            val goToTelaTeste = Intent(this, TesteActivity::class.java);
+            startActivity(goToTelaTeste);
+            finish();
         }
 
         findViewById<TextView>(R.id.btnLembretes).setOnClickListener {
-//            val goToCalculadora = Intent(this, );
-//            startActivity(goToCalculadora);
-//            finish();
+            val goToTelaTeste = Intent(this, TesteActivity::class.java);
+            startActivity(goToTelaTeste);
+            finish();
         }
 
         findViewById<TextView>(R.id.btnCalcImc).setOnClickListener {
-//            val goToCalculadora = Intent(this, ImcActivity::class.java);
-//            startActivity(goToCalculadora);
-//            finish();
+            val goToTelaTeste = Intent(this, TesteActivity::class.java);
+            startActivity(goToTelaTeste);
+            finish();
         }
 
         findViewById<TextView>(R.id.btnDicasReceitas).setOnClickListener {
-//            val goToCalculadora = Intent(this, );
-//            startActivity(goToCalculadora);
-//            finish();
+            val goToTelaTeste = Intent(this, TesteActivity::class.java);
+            startActivity(goToTelaTeste);
+            finish();
         }
 
         findViewById<TextView>(R.id.btnMInhaEvolu).setOnClickListener {
-//            val goToCalculadora = Intent(this, );
-//            startActivity(goToCalculadora);
-//            finish();
+            val goToTelaTeste = Intent(this, TesteActivity::class.java);
+            startActivity(goToTelaTeste);
+            finish();
         }
 
         findViewById<TextView>(R.id.btnAcademiasProxima).setOnClickListener {
-//            val goToCalculadora = Intent(this, );
-//            startActivity(goToCalculadora);
-//            finish();
+            val goToTelaTeste = Intent(this, TesteActivity::class.java);
+            startActivity(goToTelaTeste);
+            finish();
         }
 
     }

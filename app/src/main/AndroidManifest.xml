@@ -12,7 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalculadoraIMC"
         tools:targetApi="31">
-
+        <activity
+            android:name=".TesteActivity"
+            android:exported="false"
+            android:label="@string/title_activity_teste"
+            android:theme="@style/Theme.AppCompat"
+            />
         <activity
             android:name=".MenuActivity"
             android:exported="true"

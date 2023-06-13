@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Menu UMC-Fit</string>
-    
+
     <string name="dados_pessoais">Dados Pessoais</string>
     <string name="treinos">Treinos</string>
     <string name="lembretes">Lembretes</string>
@@ -8,6 +8,9 @@
     <string name="dicas_receitas">Dicas de Receitas</string>
     <string name="minha_evolucao">Minha evolução</string>
     <string name="academias_proximas">Academias próximas</string>
+    <string name="title_activity_teste">TesteActivity</string>
+    <string name="voltar">Voltar</string>
+    <string name="tela_teste">Essa é uma tela teste</string>
 
 
 </resources>
