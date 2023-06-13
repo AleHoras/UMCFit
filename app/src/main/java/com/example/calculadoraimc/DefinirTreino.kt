@@ -3,6 +3,8 @@ package com.example.calculadoraimc
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog
 import android.content.ContentValues
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -88,6 +90,12 @@ class DefinirTreino : AppCompatActivity() {
 
         val timePickerDialog = TimePickerDialog(this, timePickerListener, calendar.get(Calendar.HOUR_OF_DAY), calendar.get(Calendar.MINUTE), true)
         timePickerDialog.show()
+    }
+
+    companion object {
+        fun newIntent(context: Context): Intent {
+            return Intent(context, DefinirTreino::class.java)
+        }
     }
 
     private fun parseDataHora(data: String, hora: String): Date {

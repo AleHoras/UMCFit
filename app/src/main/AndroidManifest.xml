@@ -34,6 +34,11 @@
             android:label="Definir Treino"
             android:theme="@style/Theme.AppCompat" />
 
+        <activity
+            android:name=".ListarTreinos"
+            android:label="Treinos"
+            android:theme="@style/Theme.AppCompat" />
+
     </application>
 
 

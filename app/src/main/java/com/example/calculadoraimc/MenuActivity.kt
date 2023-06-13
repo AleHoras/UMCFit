@@ -18,7 +18,7 @@ class MenuActivity : AppCompatActivity() {
         }
 
         findViewById<TextView>(R.id.btnTreinos).setOnClickListener {
-            val goToTreinos = Intent(this, DefinirTreino::class.java)
+            val goToTreinos = Intent(this, ListarTreinos::class.java)
             startActivity(goToTreinos)
             finish()
         }
