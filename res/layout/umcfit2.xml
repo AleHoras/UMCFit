@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_x="0dp"
+    android:layout_y="0dp">
+
+    <Button
+        android:id="@+id/btn_cadastrar2"
+        android:layout_width="154dp"
+        android:layout_height="78dp"
+        android:layout_x="114dp"
+        android:layout_y="597dp"
+        android:backgroundTint="#007fff"
+        android:text="Cadastrar"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="411dp"
+        android:layout_height="71dp"
+        android:layout_x="1dp"
+        android:layout_y="1dp"
+        android:background="#0027FF"
+        android:text="Cadastro de local"
+        android:textAppearance="@android:style/TextAppearance.Material.Display1"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_x="66dp"
+        android:layout_y="124dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/btnparq"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:layout_x="62dp"
+            android:layout_y="125dp"
+            android:text="Parque"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/btnacad"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:layout_x="62dp"
+            android:layout_y="158dp"
+            android:text="Academia"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/btnquad"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:layout_x="62dp"
+            android:layout_y="190dp"
+            android:text="Quadra"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="93dp"
+        android:layout_height="34dp"
+        android:layout_x="65dp"
+        android:layout_y="82dp"
+        android:drawableTint="#000000"
+        android:text="Tipo"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="93dp"
+        android:layout_height="34dp"
+        android:layout_x="65dp"
+        android:layout_y="246dp"
+        android:drawableTint="#000000"
+        android:text="Nome"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="149dp"
+        android:layout_height="34dp"
+        android:layout_x="54dp"
+        android:layout_y="363dp"
+        android:drawableTint="#000000"
+        android:text="Endereço"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/nome"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_x="55dp"
+        android:layout_y="287dp"
+        android:hint="ex: Parque da Cidade" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/end"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="402dp"
+        android:hint="ex: R. São Joao. 29" />
+
+</AbsoluteLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="661dp"
+        android:backgroundTint="#007fff"
+        android:text="Cadastrar"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="267dp"
+        android:layout_y="663dp"
+        android:backgroundTint="#007fff"
+        android:text="Editar"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="411dp"
+        android:layout_height="71dp"
+        android:layout_x="1dp"
+        android:layout_y="1dp"
+        android:background="#0027FF"
+        android:text="Locais de Atividades"
+        android:textAppearance="@android:style/TextAppearance.Material.Display1"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="210dp"
+        android:layout_height="125dp"
+        android:layout_x="96dp"
+        android:layout_y="79dp"
+        android:src="@drawable/pq_iberapuera" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="218dp"
+        android:layout_height="150dp"
+        android:layout_x="92dp"
+        android:layout_y="246dp"
+        android:src="@drawable/pq_villalobos" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="253dp"
+        android:layout_height="150dp"
+        android:layout_x="72dp"
+        android:layout_y="431dp"
+        android:src="@drawable/smartfit" />
+
+    <EditText
+        android:id="@+id/textimg1"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_x="92dp"
+        android:layout_y="202dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/textimg3"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_x="83dp"
+        android:layout_y="585dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/textimg2"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_x="88dp"
+        android:layout_y="398dp"
+        android:ems="10"
+        android:inputType="text" />
+
+</AbsoluteLayout>
