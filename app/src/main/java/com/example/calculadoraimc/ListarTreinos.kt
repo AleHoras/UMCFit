@@ -31,7 +31,6 @@ class ListarTreinos : AppCompatActivity() {
         recyclerView.adapter = treinosAdapter
 
         buttonAdicionar.setOnClickListener {
-            // Abrir tela de adicionar treino
             startActivity(DefinirTreino.newIntent(this))
         }
     }
@@ -44,7 +43,6 @@ class ListarTreinos : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        // Atualizar a lista de treinos ao retomar a atividade
         val treinos = databaseHelper.obterTodosTreinos()
         treinosAdapter.setTreinos(treinos)
     }
