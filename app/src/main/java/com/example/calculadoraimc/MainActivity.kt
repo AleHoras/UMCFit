@@ -100,7 +100,7 @@ class MainActivity : ComponentActivity() {
             .setTitle("Sucesso")
             .setMessage("Login feito com sucesso!")
             .setPositiveButton("OK") { _, _ ->
-                navigateToNewScreen()
+                navigateToNewScreen() // Chama a função para redirecionar para a nova tela
             }
 
         val dialog = dialogBuilder.create()
@@ -108,12 +108,10 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-class NewScreenActivity : AppCompatActivity() {
+class NewScreenActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
-            Greeting("LOGADO!")
-        }
+        setContentView(R.layout.logadu);
     }
 }
 
