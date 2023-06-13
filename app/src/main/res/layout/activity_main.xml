@@ -15,12 +15,12 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="273dp"
+            android:layout_height="250dp"
             android:background="@drawable/blue_bg">
 
             <ImageView
-                android:layout_width="77dp"
-                android:layout_height="77dp"
+                android:layout_width="147dp"
+                android:layout_height="164dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="93dp"
                 android:src="@drawable/logo" />
@@ -103,7 +103,8 @@
         </RelativeLayout>
 
 
-        <TextView
+        <Button
+            android:id="@+id/btnValidate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -148,6 +149,7 @@
 
 
             <TextView
+                android:id="@+id/login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_regular"
